@@ -1,0 +1,84 @@
+/*
+. = classe
+# = id
+*/
+html,body {
+	margin: 0 !important;
+	padding: 0 !important;
+	font-size: 20px;
+	font-family: sans-serif;
+	background: #FBFBF8;
+	scroll-behavior: smooth;
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body{
+	
+}
+
+/*                      Header                   */
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: block;
+}
+#navbar{
+    width: 100vw;
+    background: #FBCDE9;
+}
+
+/* Barra de navegação */
+
+/*                     */
+#menu{ 
+    width: 100vw;
+    min-height: 5vh;
+    min-width: 100vw;
+    background: rgba(196, 196, 196, 0.3);
+    
+}
+#menu ul {
+    display: flex;
+    width: 100vw; /*distancia entre elementos */
+    height: 60px;
+    min-width: 700px;
+}
+#menu ul li {
+    list-style: none;
+    display: flex;
+	align-items: center;
+}
+
+#menu ul li a{ /* palavras dos link da navbar cinza */
+    margin: 0 auto;
+    color: #444343; /* Cor texto barra nav*/
+    text-decoration: none;
+    background: transparent;
+
+    font-family: 'ABeeZee', sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 18px;
+}
+#menu ul li a:hover{ /* palavras dos link da navbar cinza */
+    color: rgb(124, 21, 124);
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+/*                 Fim do Header                   */
+
+
+
+/*                   Login                         */
