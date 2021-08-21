@@ -17,6 +17,9 @@ html,body {
     box-sizing: border-box;
     font-family: arial;
 }
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
 
 body{
 	
@@ -31,8 +34,12 @@ header{
     display: block;
 }
 #navbar{
+    align-items: center;
     width: 100vw;
+    height: 13vh; /* altura do trem rosa (topo)*/
     background: #FBCDE9;
+    box-shadow: 0px 0px 6px #222222;
+    
 }
 
 /* Barra de navegação */
@@ -47,14 +54,14 @@ header{
 }
 #menu ul {
     display: flex;
-    width: 100vw; /*distancia entre elementos */
+    width: 60vw; /*distancia entre elementos */
     height: 60px;
     min-width: 700px;
 }
 #menu ul li {
     list-style: none;
     display: flex;
-	align-items: center;
+    
 }
 
 #menu ul li a{ /* palavras dos link da navbar cinza */
@@ -73,12 +80,82 @@ header{
     color: rgb(124, 21, 124);
 }
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 115px;
+    height: 115px;
+}
+
+.busca-navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 75px;   
+}
+
+#butaodelupa{
+    position: relative;
+    margin: 0;
+    color: white;
+    display: inline-block;
+    font-size: 22px; /* Tamanho da lupa */
+    background-color:transparent;
+    border: none;
+    border-radius: 10em;
+    text-align:center;
+    left: 5px;
+    height: 40px;   /* Altura do circulo da lupa envolta */
+	width: 40px;   /* Cumprimento do circulo da lupa envolta */
+}
+#butaodelupa:hover{
+    color:rgb(105, 105, 105);
+    font-size: 20px;
+   background-color: white; 
+   /* background: radial-gradient(rgb(245, 107, 234),rgb(124,21,124)); */
+}
+
+#divBusca{
+    height: 40px;
+    width: 500px;
+    border-radius: 1em;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    align-items: center;
+}
+
+#txtBusca{
+    margin-left:15px;
+    font-size: 17px;
+    width: 90%;
+    height: 28px;
+    border: none;
+    position: relative;
+    top:6px;
+}
+
+#livrinho{
+    color: rgb(114, 108, 114);
+    margin: 0;
+    position: relative;
+    top:8px;
+    left: 10px;
 }
 
 /*                 Fim do Header                   */
 
 
 
-/*                   Login                         */
+/*                   Rank                        */
+#listarank {
+    position: absolute;
+    width: 300px;
+    left: 1140px;
+    top: 117px;
+    bottom: 0px;
+    background-color: #C4C4C4;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+li {
+    margin-top: 20px;
+    margin-left: 50px;
+}
