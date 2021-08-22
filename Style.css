@@ -37,7 +37,7 @@ header{
     align-items: center;
     width: 100vw;
     height: 13vh; /* altura do trem rosa (topo)*/
-    background: #FBCDE9;
+    background: #FBCDE9;;
     box-shadow: 0px 0px 6px #222222;
     
 }
@@ -53,6 +53,7 @@ header{
     
 }
 #menu ul {
+    align-items: center;
     display: flex;
     width: 60vw; /*distancia entre elementos */
     height: 60px;
@@ -80,6 +81,7 @@ header{
     color: rgb(124, 21, 124);
 }
 .logo {
+    position: fixed;
     width: 115px;
     height: 115px;
 }
@@ -140,22 +142,28 @@ header{
     left: 10px;
 }
 
+
 /*                 Fim do Header                   */
 
 
 
 /*                   Rank                        */
+
 #listarank {
     position: absolute;
     width: 300px;
-    left: 1140px;
-    top: 117px;
+    left: 85%;
+    top: 125px;
     bottom: 0px;
     background-color: #C4C4C4;
-    font-family: Arial, Helvetica, sans-serif;
-    list-style: none;
+    
 }
-li {
+
+
+#listarank li {
     margin-top: 20px;
     margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    
 }
