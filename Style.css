@@ -81,7 +81,6 @@ header{
     color: rgb(124, 21, 124);
 }
 .logo {
-    position: fixed;
     width: 115px;
     height: 115px;
 }
@@ -141,7 +140,10 @@ header{
     top:8px;
     left: 10px;
 }
-
+#login{
+    position: relative;
+    left: 80%;
+}
 
 /*                 Fim do Header                   */
 
