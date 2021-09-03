@@ -272,12 +272,10 @@ a{
     color: black;
 }
 
+/*             Fim   popup cadastro/login              */
 
 
-
-/*           fim  popup cadastro/login             */
-
-    
+/*           Contato             */
 
 #barrinha{
     height: 100%;
@@ -308,6 +306,230 @@ a{
     
 }
 
+/*           Fim do poup             */
 
 
+/*                Contato              */
 
+#barrinha{
+    height: 100%;
+    
+}
+
+#livros{
+    height: 100vh;
+}
+#linha-vertical{
+    position: absolute;
+    width: 500px;
+    height: 0px;
+    left: 420px;
+    top: 590px;
+
+    border: 1px solid #000000;
+    transform: rotate(90.41deg);
+}
+#contato h1{
+    position: absolute;
+    width: 657px;
+    height: 28px;
+    left: 420px;
+    top: 250px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 18px;
+    /* or 43% */
+
+
+    color: #ca1f86;
+}
+#telefone h1{
+    position: absolute;
+    width: 139px;
+    height: 18px;
+    left: 950px;
+    top: 450px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 18px;
+    /* identical to box height, or 50% */
+
+
+    color: #FE48B7;
+}
+#telefone h2{
+    position: absolute;
+    width: 400px;
+    height: 29px;
+    left: 850px;
+    top: 550px;
+
+    font-family: Rationale;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    /* or 56% */
+
+
+    color: #000000;
+}
+#telefone p{
+    position: absolute;
+    width: 242px;
+    height: 18px;
+    left: 910px;
+    top: 690px;
+    
+    font-family: Rhodium Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 18px;
+    /* identical to box height, or 60% */
+    
+    
+    color: #000000;
+}
+#rectangle{
+    position: absolute;
+    width: 320px;
+    height: 40px;
+    left: 860px;
+    top: 680px;
+
+    background: #FF8DD3;
+    border-radius: 56px;
+}
+#rectangle2{
+    position: absolute;
+    width: 320px;
+    height: 40px;
+    left: 155px;
+    top: 680px;
+
+    background: #FF8DD3;
+    border-radius: 56px;
+}
+#email h1{
+    position: absolute;
+    width: 100px;
+    height: 18px;
+    left: 250px;
+    top: 450px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 18px;
+    /* identical to box height, or 50% */
+
+
+    color: #FE48B7;
+}
+#email h2{
+    position: absolute;
+    width: 266px;
+    height: 54px;
+    left: 200px;
+    top: 550px;
+
+    font-family: Rationale;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    /* or 56% */
+
+
+    color: #000000;
+}
+#email p{
+    position: absolute;
+    width: 253px;
+    height: 18px;
+    left: 193px;
+    top: 690px;
+
+    font-family: Rhodium Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 18px;
+    /* identical to box height, or 56% */
+
+
+    color: #000000;
+
+}
+
+/*          Fim do Contato             */
+
+
+/*           Quem somos            */
+
+#barrinha{
+    height: 100%;
+    
+}
+
+#livros{
+    height: 100vh;
+}
+
+#qsomos h1{
+    position: absolute;
+    width: 325px;
+    height: 26px;
+    left: 878px;
+    top: 290px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 18px;
+    /* or 36% */
+
+
+    color: #831156;
+}
+
+#qsomos p{
+    position: absolute;
+    width: 500px;
+    height: 410px;
+    left: 770px;
+    top: 380px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 88% */
+    
+    text-align: justify;
+    
+    color: #000000;
+}
+
+#linha-vertical{
+    position: absolute;
+    width: 558.01px;
+    height: 0px;
+    left: 420px;
+    top: 470px;
+
+    border: 1px solid #000000;
+    transform: rotate(90.41deg);
+}
+
+/*        Fim do Quem somos            */
