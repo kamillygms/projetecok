@@ -56,7 +56,7 @@ a{
 #menu{ 
     width: 100vw;
     min-height: 5vh;
-    background: #C4C4C4;
+    background: #ddd3d3;
     box-shadow: 0px 0px 6px #222222;
     max-width: 100%;
     
@@ -169,6 +169,7 @@ a{
     top: 50%;
     left:50%;
     transform: translate(-50%,-50%);
+    z-index: 100;
 }
 #abrir-login {
     position: absolute;
@@ -196,14 +197,15 @@ a{
     left: 50%;
     visibility: hidden;
     transform: translate(-50%,-50%) scale(1.25); 
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 450px;
     padding: 20px 30px;
     background: rgb(156, 126, 126);
     border-radius: 10px;
     transition: top 0ms ease-in-out 200ms, 
                 opacity 200ms ease-in-out 0ms, 
                 transform 200ms ease-in-out 0ms;
+
 }
 .popup.active{
     top: 50%;
@@ -240,13 +242,17 @@ a{
     
 }
 .popup .form .form-element label {
+    position: relative;
+    top: 10px;
     font-size: 15px 0px;
     font-family: 'ABeeZee', sans-serif;
 
 }
 .popup .form .form-element input[type="text"],
 .popup .form .form-element input[type="password"]{
-    margin: 5px;
+    position: relative;
+    top: 10px;
+    margin: 9px;
     border:none;
     display: block;
     width: 100%;
@@ -255,6 +261,8 @@ a{
 
 }
 .popup .form .form-element button{
+    position: relative;
+    top: 40px;
     width: 100%;
     height: 50px;
     border: none;
@@ -265,36 +273,46 @@ a{
     border-radius: 10px;
     cursor: pointer;
     
-
 }
+
 
 /*             Fim   popup cadastro/login              */
 
 
 /*           Contato             */
 
+#barrinha{
+    height: 100%;
+    
+}
+
+#livros{
+    height: 100vh;
+}
+
+
 #linha-vertical{
     position: absolute;
-    width: 37%;
-    height: 0%;
-    left: 32%;
-    top: 95%;
+    width: 500px;
+    height: 0px;
+    left: 420px;
+    top: 590px;
 
     border: 1px solid #000000;
     transform: rotate(90.41deg);
 }
 #contato h1{
     position: absolute;
-    width: 65%;
-    height: 28%;
-    left: 31%;
-    top: 40%;
+    width: 657px;
+    height: 28px;
+    left: 420px;
+    top: 250px;
 
     font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 210%;
-    line-height: 18%;
+    font-size: 42px;
+    line-height: 18px;
     /* or 43% */
 
 
@@ -302,16 +320,16 @@ a{
 }
 #telefone h1{
     position: absolute;
-    width: 9%;
-    height: 18%;
-    left: 71%;
-    top: 72%;
+    width: 139px;
+    height: 18px;
+    left: 950px;
+    top: 450px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 170%;
-    line-height: 18%;
+    font-size: 36px;
+    line-height: 18px;
     /* identical to box height, or 50% */
 
 
@@ -319,16 +337,16 @@ a{
 }
 #telefone h2{
     position: absolute;
-    width: 30%;
-    height: 29%;
-    left: 65%;
-    top: 87%;
+    width: 400px;
+    height: 29px;
+    left: 850px;
+    top: 550px;
 
     font-family: Rationale;
     font-style: normal;
     font-weight: normal;
-    font-size: 150%;
-    line-height: 100%;
+    font-size: 30px;
+    line-height: 35px;
     /* or 56% */
 
 
@@ -336,16 +354,16 @@ a{
 }
 #telefone p{
     position: absolute;
-    width: 30%;
-    height: 29%;
-    left: 69%;
-    top: 110%;
+    width: 242px;
+    height: 18px;
+    left: 910px;
+    top: 690px;
     
     font-family: Rhodium Libre;
     font-style: normal;
     font-weight: normal;
-    font-size: 125%;
-    line-height: 95%;
+    font-size: 30px;
+    line-height: 18px;
     /* identical to box height, or 60% */
     
     
@@ -353,36 +371,36 @@ a{
 }
 #rectangle{
     position: absolute;
-    width: 22%;
-    height: 6%;
-    left: 65%;
-    top: 109%;
+    width: 320px;
+    height: 40px;
+    left: 860px;
+    top: 680px;
 
     background: #FF8DD3;
     border-radius: 56px;
 }
 #rectangle2{
     position: absolute;
-    width: 22%;
-    height: 6%;
-    left: 12%;
-    top: 109%;
+    width: 320px;
+    height: 40px;
+    left: 155px;
+    top: 680px;
 
     background: #FF8DD3;
     border-radius: 56px;
 }
 #email h1{
     position: absolute;
-    width: 9%;
-    height: 18%;
-    left: 18%;
-    top: 72%;
+    width: 100px;
+    height: 18px;
+    left: 250px;
+    top: 450px;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 170%;
-    line-height: 18%;
+    font-size: 36px;
+    line-height: 18px;
     /* identical to box height, or 50% */
 
 
@@ -390,16 +408,16 @@ a{
 }
 #email h2{
     position: absolute;
-    width: 20%;
-    height: 29%;
-    left: 15%;
-    top: 87%;
+    width: 266px;
+    height: 54px;
+    left: 200px;
+    top: 550px;
 
     font-family: Rationale;
     font-style: normal;
     font-weight: normal;
-    font-size: 150%;
-    line-height: 100%;
+    font-size: 30px;
+    line-height: 35px;
     /* or 56% */
 
 
@@ -407,16 +425,16 @@ a{
 }
 #email p{
     position: absolute;
-    width: 30%;
-    height: 29%;
-    left: 17%;
-    top: 110%;
+    width: 253px;
+    height: 18px;
+    left: 193px;
+    top: 690px;
 
     font-family: Rhodium Libre;
     font-style: normal;
     font-weight: normal;
-    font-size: 125%;
-    line-height: 95%;
+    font-size: 30px;
+    line-height: 18px;
     /* identical to box height, or 56% */
 
 
@@ -487,153 +505,3 @@ a{
 }
 
 /*        Fim do Quem somos            */
-
-/*        Inicio Forum            */
-
-#forum h1{
-    position: absolute;
-    width: 232px;
-    height: 44px;
-    left: 600px;
-    top: 240px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 18px;
-    /* or 37% */
-
-
-    color: #831156;
-}
-#forum p{
-    position: absolute;
-    width: 691px;
-    height: 21px;
-    left: 370px;
-    top: 305px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 18px;
-    /* or 75% */
-
-
-    color: #000000;
-}
-#retangulo{
-    position: absolute;
-    width: 900px;
-    height: 150px;
-    left: 250px;
-    top: 406px;
-
-    background: #C4C4C4;
-    border-radius: 229px;
-}
-#circulo{
-    position: absolute;
-    width: 120px;
-    height: 105px;
-    left: 290px;
-    top: 430px;
-
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 50%;
-}
-#caixa1 h3{
-    position: absolute;
-    width: 104px;
-    height: 21px;
-    left: 450px;
-    top: 430px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 18px;
-    /* or 75% */
-
-
-    color: #000000;
-}
-#caixa1 p{
-    position: absolute;
-    width: 314px;
-    height: 21px;
-    left: 450px;
-    top: 490px;
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 18px;
-    /* or 75% */
-
-
-    color: #000000;
-}
-#retangulo2{
-    position: absolute;
-    width: 900px;
-    height: 150px;
-    left: 250px;
-    top: 650px;
-
-    background: #C4C4C4;
-    border-radius: 229px;
-}
-#circulo2{
-    position: absolute;
-    width: 120px;
-    height: 105px;
-    left: 290px;
-    top: 680px;
-
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 50%;
-}
-#caixa2 h3{
-    position: absolute;
-    width: 104px;
-    height: 21px;
-    left: 450px;
-    top: 680px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 18px;
-    /* or 75% */
-    
-    
-    color: #000000;
-}
-#caixa2 p{
-    position: absolute;
-    width: 314px;
-    height: 21px;
-    left: 450px;
-    top: 740px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 18px;
-    /* or 75% */
-    
-    
-    color: #000000;
-}
-
-
-/*        Fim do Forum            */
