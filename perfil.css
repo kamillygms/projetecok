@@ -1,0 +1,138 @@
+#perfil {
+    position: absolute;
+    width: 232px;
+    height: 20px;
+    left: 20%;
+    top: 41%;
+    
+    font-family: Roboto;
+    font-size: 48px;
+    line-height: 18px;
+    color: #831156;
+}
+
+.circleBase {
+    border-radius: 50%;
+}
+
+.type1 {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 52%;
+    left: 20%;
+    line-height: 18px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#posição {
+    position: absolute;
+    width: 303px;
+    height: 18px;
+    left: 21%;
+    top: 87%;
+
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 18px;
+    color: #831156;
+}
+
+#nome{
+    position: relative;
+    width: 100px;
+    height: 18px;
+    font-family: Roboto Condensed;
+    font-size: 21px;
+    line-height: 26px;
+    
+    position: absolute;
+    border-radius: 229px;
+    width: 200px;
+    height: 26px;
+    left: 45%;
+    top: 58%;
+    background: #FF8DD3;
+}
+
+#email{
+    position: relative;
+    width: 100px;
+    height: 18px;
+    font-family: Roboto Condensed;
+    font-size: 21px;
+    line-height: 26px;
+    
+    position: absolute;
+    border-radius: 229px;
+    width: 200px;
+    height: 26px;
+    left: 45%;
+    top: 63%;
+    background: #FF8DD3;
+}
+
+#senha{
+    position: relative;
+    width: 100px;
+    height: 18px;
+    font-family: Roboto Condensed;
+    font-size: 21px;
+    line-height: 26px;
+
+    position: absolute;
+    border-radius: 229px;
+    width: 200px;
+    height: 26px;
+    left: 45%;
+    top: 68.2%;
+    background: #FF8DD3;
+}
+
+.retangulo1{
+   position: absolute;
+    width: 350px;
+    height: 26px;
+    left: 59.5%;
+    top: 58%;
+
+    background: #C4C4C4;
+    border-radius: 229px;
+}
+
+.retangulo2{
+    position: absolute;
+    width: 350px;
+    height: 26px;
+    left: 59.5%;
+    top: 63%;
+ 
+    background: #C4C4C4;
+    border-radius: 229px;
+ }
+
+.retangulo3{
+    position: absolute;
+    width: 350px;
+    height: 26px;
+    left: 59.5%;
+    top: 68.2%;
+ 
+    background: #C4C4C4;
+    border-radius: 229px;
+}
+
+#botao{
+    position: absolute;
+    left: 85%;
+    top: 86.5%;
+
+    font-family: Roboto Condensed;
+    font-size: 20px;
+    line-height: 18px;
+    color: #831156;
+    border: 1px solid #831156;
+    border-radius: 200px;
+}
