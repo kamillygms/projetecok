@@ -1,0 +1,14 @@
+#listarank {
+    position: absolute;
+    width: 300px;
+    left: 1065px;
+    top: 143px;
+    bottom: 0px;
+    background-color: #C4C4C4;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+li {
+    margin-top: 20px;
+    margin-left: 50px;
+}
