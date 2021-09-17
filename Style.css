@@ -273,36 +273,28 @@ a{
 
 /*           Contato             */
 
-#barrinha{
-    height: 100%;
-    
-}
-
-#livros{
-    height: 100vh;
-}
 #linha-vertical{
     position: absolute;
-    width: 500px;
-    height: 0px;
-    left: 420px;
-    top: 590px;
+    width: 37%;
+    height: 0%;
+    left: 32%;
+    top: 95%;
 
     border: 1px solid #000000;
     transform: rotate(90.41deg);
 }
 #contato h1{
     position: absolute;
-    width: 657px;
-    height: 28px;
-    left: 420px;
-    top: 250px;
+    width: 65%;
+    height: 28%;
+    left: 31%;
+    top: 40%;
 
     font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 42px;
-    line-height: 18px;
+    font-size: 210%;
+    line-height: 18%;
     /* or 43% */
 
 
@@ -310,16 +302,16 @@ a{
 }
 #telefone h1{
     position: absolute;
-    width: 139px;
-    height: 18px;
-    left: 950px;
-    top: 450px;
+    width: 9%;
+    height: 18%;
+    left: 71%;
+    top: 72%;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
-    line-height: 18px;
+    font-size: 170%;
+    line-height: 18%;
     /* identical to box height, or 50% */
 
 
@@ -327,16 +319,16 @@ a{
 }
 #telefone h2{
     position: absolute;
-    width: 400px;
-    height: 29px;
-    left: 850px;
-    top: 550px;
+    width: 30%;
+    height: 29%;
+    left: 65%;
+    top: 87%;
 
     font-family: Rationale;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 150%;
+    line-height: 100%;
     /* or 56% */
 
 
@@ -344,16 +336,16 @@ a{
 }
 #telefone p{
     position: absolute;
-    width: 242px;
-    height: 18px;
-    left: 910px;
-    top: 690px;
+    width: 30%;
+    height: 29%;
+    left: 69%;
+    top: 110%;
     
     font-family: Rhodium Libre;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 18px;
+    font-size: 125%;
+    line-height: 95%;
     /* identical to box height, or 60% */
     
     
@@ -361,36 +353,36 @@ a{
 }
 #rectangle{
     position: absolute;
-    width: 320px;
-    height: 40px;
-    left: 860px;
-    top: 680px;
+    width: 22%;
+    height: 6%;
+    left: 65%;
+    top: 109%;
 
     background: #FF8DD3;
     border-radius: 56px;
 }
 #rectangle2{
     position: absolute;
-    width: 320px;
-    height: 40px;
-    left: 155px;
-    top: 680px;
+    width: 22%;
+    height: 6%;
+    left: 12%;
+    top: 109%;
 
     background: #FF8DD3;
     border-radius: 56px;
 }
 #email h1{
     position: absolute;
-    width: 100px;
-    height: 18px;
-    left: 250px;
-    top: 450px;
+    width: 9%;
+    height: 18%;
+    left: 18%;
+    top: 72%;
 
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 36px;
-    line-height: 18px;
+    font-size: 170%;
+    line-height: 18%;
     /* identical to box height, or 50% */
 
 
@@ -398,16 +390,16 @@ a{
 }
 #email h2{
     position: absolute;
-    width: 266px;
-    height: 54px;
-    left: 200px;
-    top: 550px;
+    width: 20%;
+    height: 29%;
+    left: 15%;
+    top: 87%;
 
     font-family: Rationale;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 150%;
+    line-height: 100%;
     /* or 56% */
 
 
@@ -415,16 +407,16 @@ a{
 }
 #email p{
     position: absolute;
-    width: 253px;
-    height: 18px;
-    left: 193px;
-    top: 690px;
+    width: 30%;
+    height: 29%;
+    left: 17%;
+    top: 110%;
 
     font-family: Rhodium Libre;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 18px;
+    font-size: 125%;
+    line-height: 95%;
     /* identical to box height, or 56% */
 
 
