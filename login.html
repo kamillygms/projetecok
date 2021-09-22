@@ -1,19 +1,33 @@
 <!doctype html>
 <html lang="pt-br">
     <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="Style.css" type="text/css">
-    <title>Login</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Style.css" type="text/css">
+        <title>Login</title>
+    </html>
     <body>
-        <h1 id="titulo">Faça seu Login</h1>
-        <form action=“pagina_inicial.html” method=“post”>
-            Email: <input type="text" name="email_cliente"> <br>
-            Senha: <input type="password" name="senha_cliente">
-            <input type="submit" name="btn-enviar" value="Login">
-        </form>
-        <div>
-            <p>Não possui uma conta? <br> <a href="cadastro.html" target="_self">Cadastre-se</a></p>
+        <div class="center">
+            
+            <div class="popup">
+                <div class="fechar">&times</div>
+                <div class="form">
+                    <h2>Login</h2>
+                    <div class="form-element">
+                        <label for="Email">Email:</label>
+                        <input type="text" id="email" placeholder="Email....">
+                    </div>
+                    <div class="form-element">
+                        <label for="password">Senha:</label>
+                        <input type="password" id="senha" placeholder="Senha...">
+                    </div>
+                    <div class="form-element">
+                        <button>Conectar</button>
+                    </div>
+                    <div class="form-element"">
+                        <button onclick="window.location.href='cadastro.html'">Cadastrar-se</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
-    </head>
 </html>
