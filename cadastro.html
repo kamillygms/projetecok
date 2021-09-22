@@ -1,23 +1,82 @@
 <!doctype html >
 <html  lang = " pt-br " >
+    <!DOCTYPE html>
+    <html lang="en">
     <head>
-        <meta  charset = " UTF-8 ">
-        <link rel = "stylesheet" href = " Style.css" type = "text/css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+    
+        <link rel="stylesheet" href="Style.css" type="text/css">
+    
+        <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <title>Document</title>
         <link rel = "stylesheet" href = "cadastro.html" type = "text/css">
         <link rel = "stylesheet" href = "login.html" type = "text/css">
-        <button  href = " # " > Cadastrar-se </button>
+        <body>
+            <header>
+                <div id="navbar">
+                    <!--Topo Rosa-->
+                    <a href="index.html">
+                        <!-- recarregar página-->
+                        <img class="logo" src="logo.png" alt="Logo" />
+                    </a>
+        
+                    <div class="busca-navbar">
+                        <div id="divBusca">
+                            <i id="livrinho" class="fa fa-book" aria-hidden="true"></i>
+                            <input type="text" id="txtBusca" placeholder="Livros,Perfil..." />
+                        </div>
+                        <button href="#" id="butaodelupa"><i class="fa fa-search" aria-hidden="true"></i></button>
+        
+                    </div>
+                    <div id="login">
+                        <button id="abrir-login">Login</button>
+                    </div>
+        
+        
+                </div>
+        
+                <div id="menu">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="Contato.html">Contato</a></li>
+                        <li><a href="Quemsomos.html">Quem Somos?</a></li>
+                        <li><a href="Fórum.html">Fórum</a></li>
+                        <li><a href="Livros.html">Livros</a></li>
+                    </ul>
+                </div>
+            </header>
     </head>
     <body>
-        <h1  id = " titulo " > Faça seu Cadastro </h1>
-        <form  action = “pagina_inicial.html”  method = “post”>
-            Nome: <entrada  tipo = " texto " nome =" nome_cliente "><br>
-            E-mail: <entrada  tipo = " texto " nome =" email_cliente "><br>
-            Senha: <input  type = " password " name = " senha_cliente ">
-            <input  type = " enviar " name = " btn-enviar " value = " Login ">
+        <div class= "cad">
+            <h1  class = "titulo" > Faça seu Cadastro </h1>
+            <form  action = “pagina_inicial.html”  method = “post”>
+                <div class="form-element">
+                    <label for="Nome Completo"></label>
+                    <input type="text" id="email" placeholder="Digite seu nome completo:">
+                </div>
+                <div class="form-element">
+                    <label for="Email"></label>
+                    <input type="text" id="email" placeholder="Digite seu email:">
+                </div>
+                <div class="form-element">
+                    <label for="password"></label>
+                    <input type="password" id="senha" placeholder="Digite sua senha:">
+                </div>
+                <div id="conectar">
+                    <button>Crie Sua Conta</button>
+                   
+                </div>
+                
+                
+            </form>
             
-        </form>
-        <div>
-            <p> Tudo pronto! Agora, faça seu login. <Br>  <a  href = "login.html" alvo =" _self "> Faça seu Login </a> </p>
         </div>
 
         
