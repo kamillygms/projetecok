@@ -57,23 +57,33 @@
         <div class= "cad">
             <h1  class = "titulo" > Faça seu Cadastro </h1>
             <form  action = “pagina_inicial.html”  method = “post”>
-                <div class="form-element">
-                    <label for="Nome Completo"></label>
-                    <input type="text" id="email" placeholder="Digite seu nome completo:">
+                <div class="container">
+                    <div class="form-element">
+                        <label for="Nome Completo"></label>
+                        <input type="text" id="email" placeholder="Digite seu nome completo:">
+                    </div>
+                    <div class="form-element">
+                        <label for="Email"></label>
+                        <input type="text" id="email" placeholder="Digite seu email:">
+                    </div>
+                    <div class="form-element">
+                        <label for="password"></label>
+                        <input type="password" id="senha" placeholder="Digite sua senha:">
+                    </div>
+                    <div class="form-element">
+                        <label for="password"></label>
+                        <input type="password" id="senha" placeholder="Repita sua senha:">
+                    </div>
+                    <div class="conectar">
+                        <button> Crie Sua Conta</button>
+                    </div>
+                    <div class="log">
+                        <p> Já tem uma conta? Faça seu login. </p>
+                        <div class="botlog"> 
+                            <button onclick="window.location.href='login.html'">Login</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="form-element">
-                    <label for="Email"></label>
-                    <input type="text" id="email" placeholder="Digite seu email:">
-                </div>
-                <div class="form-element">
-                    <label for="password"></label>
-                    <input type="password" id="senha" placeholder="Digite sua senha:">
-                </div>
-                <div id="conectar">
-                    <button>Crie Sua Conta</button>
-                   
-                </div>
-                
                 
             </form>
             
